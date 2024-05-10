@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="bodyPg p-5">
+        <h2 class="title1E mb-4">Insertar Producto</h2>
+        <form (ngSubmit)="guardarProducto()">
+            <div class="form-group">
+                <div class="card card-body bg-light mb-2 mt-2">
+                    <div class="row mb-3">
+                        <label for="idProducto" class="col-form-label col-md-2">Código del Producto:</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="idProducto" [(ngModel)]="idProducto" name="idProducto">
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <label for="nombreProducto" class="col-form-label col-md-2">Nombre del Producto:</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="nombreProducto" [(ngModel)]="nombreProducto" name="nombreProducto">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="costo" class="col-form-label col-md-2">Costo del Producto:</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="costo" [(ngModel)]="costo" name="costo">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="precio" class="col-form-label col-md-2">Precio del Producto:</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="precio" [(ngModel)]="precio" name="precio">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Guardar Producto</button>
+            
+            <!-- Alerta de éxito -->
+            <div *ngIf="showAlertSuccess" class="alert alert-success mt-3" role="alert">
+                Producto insertado con éxito
+            </div>
+            
+            <!-- Alerta de error -->
+            <div *ngIf="showAlertError" class="alert alert-danger mt-3" role="alert">
+                Error: Ya existe un producto con este mismo código
+            </div>
+        </form>
+    </div>
+</div>

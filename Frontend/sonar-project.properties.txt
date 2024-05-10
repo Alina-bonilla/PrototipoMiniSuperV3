@@ -1,0 +1,22 @@
+#Archivo de configuracion para analizar localmente con SonarQube, para su uso se debe eliminar la extencion .txt
+# Nombre del proyecto
+sonar.projectKey=frontend2
+sonar.projectName=frontend2
+sonar.projectVersion=1.0
+
+# Rutas de los archivos fuente
+sonar.sources=src
+
+# Lenguajes a analizar
+sonar.language=js
+sonar.language=typescript
+
+# Ruta del archivo de configuración de TypeScript (para proyectos Angular)
+sonar.typescript.tsconfigPath=tsconfig.json
+
+# Configuración del análisis de TypeScript (para proyectos Angular)
+sonar.sourceEncoding=UTF-8
+sonar.ts.tslint.configPath=tslint.json
+
+# URL de SonarQube
+sonar.host.url=http://localhost:9000

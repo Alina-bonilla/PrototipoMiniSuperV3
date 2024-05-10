@@ -1,0 +1,60 @@
+name: Build and Analyze
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_windows:
+    name: Build on Windows
+    runs-on: windows-latest
+    permissions: read-all
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      # Navegar a la carpeta del proyecto
+      - name: Navigate to project directory
+        run: cd Backend/MiniSuper
+        
+      - name: Set up JDK 17
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
+      - name: Cache SonarQube packages
+        uses: actions/cache@v1
+        with:
+          path: ~\.sonar\cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+      - name: Cache SonarQube scanner
+        id: cache-sonar-scanner
+        uses: actions/cache@v1
+        with:
+          path: .\.sonar\scanner
+          key: ${{ runner.os }}-sonar-scanner
+          restore-keys: ${{ runner.os }}-sonar-scanner
+      - name: Install SonarQube scanner
+        if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
+        shell: powershell
+        run: |
+          New-Item -Path .\.sonar\scanner -ItemType Directory
+          dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+      - name: Build and analyze
+        shell: powershell
+        run: |
+          $filesToRemove = Get-ChildItem -Path $env:GITHUB_WORKSPACE -Filter "sonar-project.properties" -Recurse
+          foreach ($file in $filesToRemove) {
+            Remove-Item -Path $file.FullName -Force
+          }
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"backendV2" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}" /d:sonar.csproj.path="Backend/MiniSuper/MiniSuper.sln"
+          dotnet build Backend/MiniSuper/MiniSuper.sln
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          $filesToRestore = Get-ChildItem -Path $env:GITHUB_WORKSPACE -Filter "sonar-project.properties.bak" -Recurse
+          foreach ($file in $filesToRestore) {
+            Rename-Item -Path $file.FullName -NewName ($file.Name -replace '\.bak$', '')
+          }
+
+
+
