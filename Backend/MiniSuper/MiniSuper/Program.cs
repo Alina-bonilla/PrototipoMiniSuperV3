@@ -8,7 +8,7 @@ using MiniSuper.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Obtener la contraseña de la base de datos desde la variable de entorno
-string dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
+string? dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
 // Construir la cadena de conexión
 string connectionString = $"Server=DESKTOP-2N2DH5F\\SQLSERVER;Database=GestionMiniSuper;User Id=sa;Password={dbPassword};Encrypt=False;Trust Server Certificate=True;";
 
