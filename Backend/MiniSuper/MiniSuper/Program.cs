@@ -7,6 +7,15 @@ using MiniSuper.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Obtener la contraseña de la base de datos desde la variable de entorno
+string dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
+// Construir la cadena de conexión
+string connectionString = $"Server=DESKTOP-2N2DH5F\\SQLSERVER;Database=GestionMiniSuper;User Id=sa;Password={dbPassword};Encrypt=False;Trust Server Certificate=True;";
+
+// Configuración del servicio de base de datos
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
 // Configuración del servicio de base de datos
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -14,9 +23,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Agregar servicios CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAnyOrigin", builder =>
+    options.AddPolicy("AllowSpecificOrigin", builder =>
     {
-        builder.AllowAnyOrigin()
+        builder.WithOrigins("https://example.com")
                .AllowAnyMethod()
                .AllowAnyHeader();
     });
