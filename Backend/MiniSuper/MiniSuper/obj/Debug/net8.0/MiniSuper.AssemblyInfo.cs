@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniSuper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+873e78780c5d22380068a324b6a0a0a67d2a986a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniSuper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniSuper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

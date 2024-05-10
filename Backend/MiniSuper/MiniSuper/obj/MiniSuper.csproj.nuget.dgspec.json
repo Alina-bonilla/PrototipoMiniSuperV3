@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UsuarioGA\\Desktop\\Prueba\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj": {}
+    "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuper\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UsuarioGA\\Desktop\\Prueba\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj": {
+    "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuper\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UsuarioGA\\Desktop\\Prueba\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+        "projectUniqueName": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuper\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
         "projectName": "MiniSuper",
-        "projectPath": "C:\\Users\\UsuarioGA\\Desktop\\Prueba\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+        "projectPath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuper\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
         "packagesPath": "C:\\Users\\UsuarioGA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UsuarioGA\\Desktop\\Prueba\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\obj\\",
+        "outputPath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuper\\Backend\\MiniSuper\\MiniSuper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UsuarioGA\\AppData\\Roaming\\NuGet\\NuGet.Config",

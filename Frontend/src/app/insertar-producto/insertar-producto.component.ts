@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import * as crypto from 'crypto'; //Para regla JavaScript #4426
-
-
 @Component({
   selector: 'app-insertar-producto',
   templateUrl: './insertar-producto.component.html',
@@ -16,11 +13,6 @@ export class InsertarProductoComponent {
   precio: number = 0;
   showAlertSuccess: boolean = false;
   showAlertError: boolean = false;
-  
-  //Regla JavaScript #4275, Este getter no devuelve el valor correcto del campo `idProducto`
-  set idProducto(val: number) {
-    this.nombreProducto = val.toString();
-  };  
 
   constructor(private http: HttpClient) {}
 
@@ -32,13 +24,6 @@ export class InsertarProductoComponent {
       Costo: this.costo, 
       Precio: this.precio
     };
-
-    // Regla JavaScript #1854 por el privateKey, publicKey
-    const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
-      modulusLength: 1024,  // Regla JavaScript #4426
-      publicKeyEncoding:  { type: 'spki', format: 'pem' },
-      privateKeyEncoding: { type: 'pkcs8', format: 'pem' }
-    });
 
     this.http.post('https://localhost:7287/insertarProducto', Producto).subscribe(
       () => {

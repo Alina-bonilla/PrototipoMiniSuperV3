@@ -1,7 +1,7 @@
 #Archivo de configuracion para analizar localmente con SonarQube, para su uso se debe eliminar la extencion .txt
 # Nombre del proyecto
-sonar.projectKey=frontend2
-sonar.projectName=frontend2
+sonar.projectKey=frontend1
+sonar.projectName=frontend1
 sonar.projectVersion=1.0
 
 # Rutas de los archivos fuente

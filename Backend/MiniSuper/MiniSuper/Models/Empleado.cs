@@ -11,8 +11,5 @@ namespace MiniSuper.Models
         public string? CodigoIngreso { get; set; }
         public decimal SalarioMensualBruto { get; set; }
         public decimal SalarioMensualNeto { get; set; }
-
-        // Regla C# 3453
-        private Empleado() { }
     }
 }

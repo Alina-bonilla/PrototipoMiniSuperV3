@@ -54,24 +54,6 @@ BEGIN
     ORDER BY salarioMensualBruto DESC;
 END;
 
--------------- INFRINGIR REGLAS --------------
---Regla 2070
-SELECT HASHBYTES('SHA1', codigoIngreso) FROM dbo.Empleados;
---Regla 4054
-SELECT TOP 3 
-  cedula, nombreEmpleado, apellidoEmpleado, puesto, codigoIngreso, salarioMensualBruto, salarioMensualNeto
-  FROM Empleados
-  WHERE salarioMensualBruto IS NOT NULL;
---Regla 1745
-INSERT INTO Productos VALUES ('1010','Botella de agua', 500, 800);
---Regla 1523
-GO
-CREATE PROCEDURE BuscarProducto(@pIdProducto INT) AS
-BEGIN
-  EXEC('USE GestionMiniSuper; SELECT idProducto FROM Productos WHERE idProducto = ''' + @pIdProducto + ''' ;');
-END
-EXEC BuscarProducto 1010;
-
 
 -------------- LLamadas de prueba --------------
 EXEC proceInsertarProducto '0803','Avena Quaker Mosh Hojuelas -300gr', 700, 1100;

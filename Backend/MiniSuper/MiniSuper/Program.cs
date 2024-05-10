@@ -45,40 +45,23 @@ app.UseHttpsRedirection();
 app.MapGet("/top3salariobruto", async (ApplicationDbContext dbContext) =>
 {
     var top3Empleados = await dbContext.Empleados.FromSqlRaw("EXEC MostrarRankingSalarioBruto").ToListAsync();
-    Console.WriteLine(top3Empleados.ToString());
     return Results.Ok(top3Empleados);
 }).Produces<List<Empleado>>();
 
 
 app.MapPost("/insertarProducto", async (ApplicationDbContext context, Producto producto) =>
 {
-    Console.WriteLine("Entro");
     var resultado = await context.Database.ExecuteSqlInterpolatedAsync(
         $"EXEC proceInsertarProducto {producto.IdProducto}, {producto.NombreProducto}, {producto.Costo}, {producto.Precio}");
 
     if (resultado > 0)
     {
-        // Regla C# 5445
-        var tempPath = Path.GetTempFileName();
-        using (var writer = new StreamWriter(tempPath))
-        {
-            await writer.WriteLineAsync($"Se insertó el producto: {producto.IdProducto}");
-        }
-
         return Results.Ok(); // Producto insertado con éxito
     }
     else
     {
         return Results.BadRequest(); // Producto no insertado (ya existe uno con el mismo ID)
     }
-
-    // Regla C# 5146, solo disponible en versionDeveloper 
-    app.MapGet("/redirect", async (string url) =>
-    {
-        // Regla C# 1481
-        int i = 2;
-        return await Task.FromResult(Results.Redirect(url));
-    });
 });
 
 app.Run();
