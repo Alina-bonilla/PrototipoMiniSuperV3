@@ -25,8 +25,8 @@ jobs:
         with:
           projectBaseDir: Frontend
           args: >
-            -Dsonar.projectKey=frontend2
-            -Dsonar.projectName=frontend2
+            -Dsonar.projectKey=frontend3
+            -Dsonar.projectName=frontend3
             -Dsonar.projectVersion=1.0
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
