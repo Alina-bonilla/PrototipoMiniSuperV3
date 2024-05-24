@@ -1,0 +1,15 @@
+﻿C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Data\ApplicationDbContext.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\20240411225750_InitialCreate.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\20240411225750_InitialCreate.Designer.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Models\Empleado.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Models\Producto.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Program.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.GlobalUsings.g.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.AssemblyInfo.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\appsettings.Development.json
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\appsettings.json
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Properties\Resources.resx
+C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Properties\launchSettings.json

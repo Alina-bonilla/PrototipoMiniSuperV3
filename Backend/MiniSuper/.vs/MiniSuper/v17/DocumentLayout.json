@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\",
+  "WorkspaceRootPath": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\desktop\\prototipo\\prototipominisuperv2\\prototipominisuperv2-main\\backend\\minisuper\\minisuper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\desktop\\prototipo\\prototipominisuperv2\\prototipominisuperv2-main\\backend\\minisuper\\minisuper\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\desktop\\prototipo\\prototipominisuperv2\\prototipominisuperv2-main\\backend\\minisuper\\minisuper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\minisuper.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\desktop\\prototipo\\prototipominisuperv2\\prototipominisuperv2-main\\backend\\minisuper\\minisuper\\minisuper.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\minisuper.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|c:\\users\\usuarioga\\documents\\github\\prototipominisuperv3\\backend\\minisuper\\minisuper\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DFF9DC9-6CC8-49E2-B2F0-94BA80F37264}|MiniSuper\\MiniSuper.csproj|solutionrelative:minisuper\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MiniSuper",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
               "RelativeDocumentMoniker": "MiniSuper\\MiniSuper.csproj",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+              "ToolTip": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
               "RelativeToolTip": "MiniSuper\\MiniSuper.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-10T21:31:31.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MiniSuper\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MiniSuper\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T22:56:26.037Z",
+              "WhenOpened": "2024-05-24T17:17:52.691Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MiniSuper\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\appsettings.Development.json",
+              "RelativeToolTip": "MiniSuper\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-24T19:51:16.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\appsettings.json",
               "RelativeDocumentMoniker": "MiniSuper\\appsettings.json",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\appsettings.json",
+              "ToolTip": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\appsettings.json",
               "RelativeToolTip": "MiniSuper\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-24T22:56:35.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\Program.cs",
               "RelativeDocumentMoniker": "MiniSuper\\Program.cs",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Program.cs",
+              "ToolTip": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\Program.cs",
               "RelativeToolTip": "MiniSuper\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T22:56:37.62Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "MiniSuper\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Models\\Producto.cs",
-              "RelativeToolTip": "MiniSuper\\Models\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T22:56:33.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "MiniSuper\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\Models\\Empleado.cs",
-              "RelativeToolTip": "MiniSuper\\Models\\Empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T22:56:32.406Z"
             }
           ]
         }

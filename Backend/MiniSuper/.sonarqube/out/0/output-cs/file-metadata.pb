@@ -1,0 +1,13 @@
+π
+≠C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.MvcApplicationPartsAssemblyInfo.csutf-8¶
+öC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.AssemblyInfo.csutf-8ª
+ØC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8®
+úC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\obj\Debug\net8.0\MiniSuper.GlobalUsings.g.csutf-8ú
+êC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Properties\Resources.Designer.csutf-8ä
+zC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Program.cswindows-1252å
+ÇC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Models\Producto.csutf-8å
+ÇC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Models\Empleado.csutf-8´
+üC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\ApplicationDbContextModelSnapshot.csutf-8Ø
+£C:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\20240411225750_InitialCreate.Designer.csutf-8§
+öC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Migrations\20240411225750_InitialCreate.csutf-8ñ
+åC:\Users\UsuarioGA\Desktop\Prototipo\PrototipoMiniSuperV2\PrototipoMiniSuperV2-main\Backend\MiniSuper\MiniSuper\Data\ApplicationDbContext.csutf-8

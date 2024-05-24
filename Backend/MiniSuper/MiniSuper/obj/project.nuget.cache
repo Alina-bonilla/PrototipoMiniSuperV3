@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XpW6t4TrH+GA++h8wplvWAs2nyzlgzHhUVxhUvhZTsrzYIMZrvNWSR0lDKg82BIPAKAvd8ZAXZtOIUMRBkkIgQ==",
+  "dgSpecHash": "ImSiIj2q+Yk7Two8Yy09uGg/lPQFcyPFM0i/S6g6omSaxzbxfj3m0Wzw7d8N78ky83HrbFjOPYrcaMH/6hjkIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+  "projectFilePath": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UsuarioGA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\UsuarioGA\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

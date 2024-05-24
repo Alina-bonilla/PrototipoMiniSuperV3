@@ -4,21 +4,29 @@ using MiniSuper.Data;
 using MiniSuper;
 using System.Reflection;
 using MiniSuper.Models;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Obtener la contraseña de la base de datos desde la variable de entorno
 string? dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD");
-// Construir la cadena de conexión
-string connectionString = $"Server=DESKTOP-2N2DH5F\\SQLSERVER;Database=GestionMiniSuper;User Id=sa;Password={dbPassword};Encrypt=False;Trust Server Certificate=True;";
+
+if (string.IsNullOrEmpty(dbPassword))
+{
+    throw new InvalidOperationException("DB_PASSWORD environment variable is not set.");
+}
+
+// Leer la cadena de conexión del archivo de configuración y reemplazar el marcador de posición
+string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection")?.Replace("Pw", "Password=" + dbPassword);
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Connection string is not set.");
+}
 
 // Configuración del servicio de base de datos
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
-
-// Configuración del servicio de base de datos
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Agregar servicios CORS
 builder.Services.AddCors(options =>

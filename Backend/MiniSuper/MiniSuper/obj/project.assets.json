@@ -4538,11 +4538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+      "projectUniqueName": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
       "projectName": "MiniSuper",
-      "projectPath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
+      "projectPath": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\MiniSuper.csproj",
       "packagesPath": "C:\\Users\\UsuarioGA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UsuarioGA\\Documents\\GitHub\\PrototipoMiniSuperV3\\Backend\\MiniSuper\\MiniSuper\\obj\\",
+      "outputPath": "C:\\Users\\UsuarioGA\\Desktop\\Prototipo\\PrototipoMiniSuperV2\\PrototipoMiniSuperV2-main\\Backend\\MiniSuper\\MiniSuper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UsuarioGA\\AppData\\Roaming\\NuGet\\NuGet.Config",
